@@ -1,4 +1,3 @@
-
 import Clients from '../views/clients/clients'
 
 var ThemeRoutes = [
@@ -15,7 +14,7 @@ var ThemeRoutes = [
   },
   {
     path: '/',
-    pathTo: '/authentication/login',
+    pathTo: '/clients',
     name: 'Dashboard',
     redirect: true
   }

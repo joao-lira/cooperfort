@@ -160,14 +160,18 @@ class Clients extends React.Component {
   actions = (cell, row) => {
     return (
       <div>
-        <Button
-          size="sm"
-          color="info"
-          outline
-          onClick={() => this.handleEdit(row)}>
-          <i className="ti-pencil" />
-          {` Editar`}
-        </Button>
+        {
+          /*
+          <Button
+            size="sm"
+            color="info"
+            outline
+            onClick={() => this.handleEdit(row)}>
+            <i className="ti-pencil" />
+            {` Editar`}
+          </Button>
+          */
+        }
         <Button
           className="ml-2"
           size="sm"
